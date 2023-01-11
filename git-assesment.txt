@@ -73,3 +73,89 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+
+git commit -m 'Added a readme.md file.'
+
+
+[git-test 6b0dc28] Added a readme.md file.
+ 78 files changed, 19384 insertions(+)
+ create mode 100644 mithilehs-chaudhari-assignment/LICENSE.md
+ create mode 100644 mithilehs-chaudhari-assignment/README.md
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/card_editing_observer.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/card_editing_observer.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/common.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/common.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_card.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_card.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_card_ordering.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_card_ordering.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_list.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/format_list.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/jquery.touch-punch.min.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/build/jquery.touch-punch.min.js.map
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/card_editing_observer.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/common.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/format.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/format_card.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/format_card_ordering.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/format_list.js
+ create mode 100644 mithilehs-chaudhari-assignment/amd/src/jquery.touch-punch.js
+ create mode 100644 mithilehs-chaudhari-assignment/changes.txt
+ create mode 100644 mithilehs-chaudhari-assignment/classes/course_format_data_common_trait.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/external/api.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/external/course_progress_data.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/external/move_activities.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/external/move_activity_to_section.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/external/show_activity_in_row.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/mod_stats.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/observers/course_module.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/output/card_all_sections_summary_renderable.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/output/card_one_section_renderable.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/output/list_all_sections_renderable.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/output/list_all_sections_summary_renderable.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/output/list_one_section_renderable.php
+ create mode 100755 mithilehs-chaudhari-assignment/classes/privacy/provider.php
+ create mode 100644 mithilehs-chaudhari-assignment/classes/usage_tracking.php
+ create mode 100644 mithilehs-chaudhari-assignment/db/events.php
+ create mode 100644 mithilehs-chaudhari-assignment/db/install.xml
+ create mode 100644 mithilehs-chaudhari-assignment/db/services.php
+ create mode 100644 mithilehs-chaudhari-assignment/db/upgrade.php
+ create mode 100644 mithilehs-chaudhari-assignment/format.php
+ create mode 100644 mithilehs-chaudhari-assignment/format_card.js
+ create mode 100644 mithilehs-chaudhari-assignment/format_list.js
+ create mode 100644 mithilehs-chaudhari-assignment/gulpfile.js
+ create mode 100644 mithilehs-chaudhari-assignment/images/readme-img.png
+ create mode 100644 mithilehs-chaudhari-assignment/lang/en/format_remuiformat.php
+ create mode 100644 mithilehs-chaudhari-assignment/lib.php
+ create mode 100644 mithilehs-chaudhari-assignment/package-lock.json
+ create mode 100644 mithilehs-chaudhari-assignment/package.json
+ create mode 100644 mithilehs-chaudhari-assignment/pix/ecf-cols.svg
+ create mode 100644 mithilehs-chaudhari-assignment/pix/ecf-rows.svg
+ create mode 100644 mithilehs-chaudhari-assignment/qaconfig
+ rename readme.md => mithilehs-chaudhari-assignment/readme.md (100%)
+ create mode 100644 mithilehs-chaudhari-assignment/renderer.php
+ create mode 100644 mithilehs-chaudhari-assignment/scss/card-layout.scss
+ create mode 100644 mithilehs-chaudhari-assignment/scss/list-layout.scss
+ create mode 100644 mithilehs-chaudhari-assignment/scss/styles.scss
+ create mode 100644 mithilehs-chaudhari-assignment/settings.php
+ create mode 100644 mithilehs-chaudhari-assignment/styles.css
+ create mode 100644 mithilehs-chaudhari-assignment/templates/card_all_sections_summary.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/card_general_section.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/card_general_section_edit.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/card_one_section.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/card_section_summary.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/course_progress.mustache
+ create mode 100755 mithilehs-chaudhari-assignment/templates/list_all_sections.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_all_sections_summary.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_general_section.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_general_section_edit.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_one_section.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_sections.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/templates/list_sections_summary.mustache
+ create mode 100644 mithilehs-chaudhari-assignment/thirdpartylibs.xml
+ create mode 100644 mithilehs-chaudhari-assignment/version.php
+
+
+
